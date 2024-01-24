@@ -15,8 +15,9 @@ from scipy import stats
 # df = pd.read_csv("Users/Juan/Documents/DataAnalytics/DA_S05_SoftwareDevelopment/DA_05_Project/vehicles_us.csv")
 
 car_data = pd.read_csv(
-    "/Users/Juan/Documents/DataAnalytics/DA_S05_SoftwareDevelopment/DA_05_Project/vehicles_us.csv")
-# print (car_data)
+   "vehicles_us.csv")
+   # "/Users/Juan/Documents/DataAnalytics/DA_S05_SoftwareDevelopment/DA_05_Project/vehicles_us.csv")
+print (car_data)
 
 st.header('Curso Data Analytics - Proyecto Sprint 05')
 
